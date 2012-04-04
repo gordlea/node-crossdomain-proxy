@@ -19,7 +19,7 @@ http.createServer(function(proxyReq, proxyResp) {
     var URL = "http://" + params.query.src;
 
 
-	// console.log("destination url=", URL);
+	console.log("destination url=", URL);
     var destParams = url.parse(URL);
 	util = require('util');
 
